@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 export default function App() {
@@ -199,25 +198,6 @@ export default function App() {
       <footer className={`py-8 text-center text-sm transition-colors duration-500 ${darkMode ? "bg-black text-gray-500" : "bg-gray-900 text-gray-400"}`}>
         <p>© 2025 Arecibo Message Recognition. In honor of humanity's first intentional message to the stars.</p>
       </footer>
-
-      <style jsx>{`
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        .animate-fade-in-up {
-          animation: fadeInUp 1s ease-out forwards;
-        }
-        .animate-fade-in {
-          animation: fadeInUp 0.5s ease-out forwards;
-        }
-      `}</style>
     </div>
   );
 }
